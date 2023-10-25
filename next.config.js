@@ -18,6 +18,12 @@ module.exports = {
             },
             {
                 protocol: "https",
+                hostname: "fideli.vtexassets.com",
+                port: '',
+                pathname: '/**'
+            },
+            {
+                protocol: "https",
                 hostname: "cdn.pixabay.com",
                 port: '',
                 pathname: '/**'
