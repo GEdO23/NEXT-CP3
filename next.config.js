@@ -18,13 +18,25 @@ module.exports = {
             },
             {
                 protocol: "https",
-                hostname: "pixabay.com",
+                hostname: "fideli.vtexassets.com",
                 port: '',
                 pathname: '/**'
-            }
+            },
             {
                 protocol: "https",
-                hostname: "istockphoto.com",
+                hostname: "cdn.pixabay.com",
+                port: '',
+                pathname: '/**'
+            },
+            {
+                protocol: "https",
+                hostname: "media.istockphoto.com",
+                port: '',
+                pathname: '/**'
+            },
+            {
+                protocol: "https",
+                hostname: "cdn.dooca.store",
                 port: '',
                 pathname: '/**'
             }

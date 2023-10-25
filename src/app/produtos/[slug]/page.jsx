@@ -19,7 +19,7 @@ export default function ProdutoSlug({ params }) {
       ) : params.slug == "sapato" ? (
         <Card
           titulo="SAPATO"
-          fonte=" https://media.istockphoto.com/id/187310279/pt/foto/sapatos-de-couro-marrom.jpg?s=1024x1024&w=is&k=20&c=CkRpD-fUlhY7NYZaJHP1pH2Tk1rQhKWP59IK6LAblpU="
+          fonte="https://cdn.dooca.store/57/products/sapato-couro-derby-ventura-nero-site-1_1600x2000+fill_ffffff.jpg?v=1687386283"
           alt="Sapato"
         />
       ) : params.slug == "bone" ? (
