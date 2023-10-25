@@ -15,6 +15,18 @@ module.exports = {
                 hostname: "cdn.awsli.com.br",
                 port: '',
                 pathname: '/**'
+            },
+            {
+                protocol: "https",
+                hostname: "pixabay.com",
+                port: '',
+                pathname: '/**'
+            }
+            {
+                protocol: "https",
+                hostname: "istockphoto.com",
+                port: '',
+                pathname: '/**'
             }
         ]
     }
