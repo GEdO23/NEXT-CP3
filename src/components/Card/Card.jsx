@@ -16,10 +16,12 @@ export default function Card({titulo, fonte, alt, altura, largura}) {
 
     return (
         <div className="w-auto h-auto my-0 mx-auto flex items-center justify-center mt-10">
-            <div className="flex-col items-center justify-center rounded-md w-1/3 h-96 bg-slate-300 shadow-lg shadow-inner">
+            <div className="flex-col items-center justify-center rounded-md w-1/3 h-auto
+            bg-slate-300 hover:bg-slate-400
+            shadow-lg transition-colors">
                 <h1 className="font-extrabold text-4xl text-slate-800 text-center mt-2 mb-2">{cp.tit}</h1>
                 <Image
-                    className="mx-auto"
+                    className="mb-10 mx-auto hover:w-2/3 transition-all"
                     src={cp.fonte}
                     alt={cp.alt}
                     width={cp.largura}
