@@ -33,6 +33,18 @@ module.exports = {
                 hostname: "media.istockphoto.com",
                 port: '',
                 pathname: '/**'
+            },
+            {
+                protocol: "https",
+                hostname: "cdn.dooca.store",
+                port: '',
+                pathname: '/**'
+},
+            {
+                protocol: "https",
+                hostname: "media.istockphoto.com",
+                port: '',
+                pathname: '/**'
             }
         ]
     }
