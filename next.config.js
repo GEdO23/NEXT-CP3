@@ -21,7 +21,7 @@ module.exports = {
                 hostname: "pixabay.com",
                 port: '',
                 pathname: '/**'
-            }
+            },
             {
                 protocol: "https",
                 hostname: "istockphoto.com",
