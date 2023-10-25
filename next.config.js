@@ -18,13 +18,13 @@ module.exports = {
             },
             {
                 protocol: "https",
-                hostname: "pixabay.com",
+                hostname: "cdn.pixabay.com",
                 port: '',
                 pathname: '/**'
             },
             {
                 protocol: "https",
-                hostname: "istockphoto.com",
+                hostname: "media.istockphoto.com",
                 port: '',
                 pathname: '/**'
             }
